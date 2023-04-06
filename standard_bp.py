@@ -169,6 +169,7 @@ for i in range(len(y_test)):
 # 计算、输出测试精度
 acc = re / len(y_test)
 print("测试精度acc = ", acc)
+# 绘制混淆矩阵
 my_confusion_matrix = confusion_matrix(y_test, test_label_list, labels=[0, 1])
 plt.matshow(my_confusion_matrix, cmap=plt.cm.Reds)
 for i in range(len(my_confusion_matrix)):
