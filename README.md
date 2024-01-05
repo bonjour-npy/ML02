@@ -1,5 +1,5 @@
 # 计科机器学习实验课作业ML02
-*2000300222倪培洋*
+
 *代码仅供参考，如果帮到你的话就点一个Star吧！*
 
 1. 项目包含完整绘图，Accuracy Curve、Loss Curve、Confusion Matrix等
